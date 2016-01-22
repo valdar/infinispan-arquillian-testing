@@ -1,0 +1,4 @@
+com/github/valdar/iat/rest/SaveKeyValueRestTest.class
+com/github/valdar/iat/rest/mock/GridServiceMock.class
+com/github/valdar/iat/rest/producers/Slf4jProducers.class
+com/github/valdar/iat/rest/TestUtils.class

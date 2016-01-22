@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <display-name>ear</display-name>
+    <module>
+        <ejb>ejb.jar</ejb>
+    </module>
+</application>
