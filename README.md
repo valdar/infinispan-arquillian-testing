@@ -2,7 +2,7 @@
 An exmple project showing a testing approach with arquillian for infinspan in a j2ee context.
 
 # Hot to build and run
-for builing and running the project you need maven 3 installed and this in your m2/settings.xml:
+For builing and running the project you need maven 3 installed and this in your m2/settings.xml:
 ```xml
 <profiles>
     <id>jboss-ga-repository</id>
@@ -37,6 +37,10 @@ for builing and running the project you need maven 3 installed and this in your 
     <activeProfiles>
 	<activeProfile>jboss-ga-repository</activeProfile>
     </activeProfiles>
+```
+Then test and build it with:
+```bash
+$ mvn clean install package
 ```
 # How is structured
 The project is structured as a 3 submodule maven project, one to build the ejb part, one the web part and the third one to package all together in a ear.
